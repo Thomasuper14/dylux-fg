@@ -17,7 +17,7 @@ jobs:
           name: Install packages
           command: npm install --prefer-offline --no-audit --progress=false
       - save_cache:
-          key: v1-deps-{{ checksum "package.json" }}-<< parameters.node-version >>
+          key: v1-deps-{{ checksum "package.jbbb  son" }}-<< parameters.node-version >>
           paths: 
             - node_modules
             - package-lock.json 
